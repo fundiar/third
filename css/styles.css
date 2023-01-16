@@ -15,9 +15,27 @@ body {
     
 }
 
+.secondsection {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    color: #796760;
+}
+
+.p-secondsection{
+    color: #8f8f8f;
+
+}
+
 .container-fluid {
+    padding: 7% 10%;
+}
+
+.container-fluid-features {
     padding: 5% 10%;
 }
+
 
 .btn {
     background-color: #c49d66;
@@ -42,6 +60,18 @@ body {
     max-width: 60%;
     margin-left: 20%;
     /* transform: rotate(25deg); */
+}
+
+.fa-hand-holding-heart {
+    color: #967E76;
+}
+
+.fa-rectangle-list{
+    color: #967E76;
+}
+
+.fa-truck-fast{
+    color: #967E76;   
 }
 
 /* Navigation bar styles */
