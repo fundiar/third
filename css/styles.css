@@ -1,3 +1,66 @@
-#title {
-    background-color: #F8EDE3;
+body {
+    font-family: "Montserrat";
 }
+
+#title {
+    background-color: #967E76;
+}
+
+.maintitle {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color:#F8EDE3
+    
+}
+
+.container-fluid {
+    padding: 5% 10%;
+}
+
+.btn {
+    background-color: #c49d66;
+    border-color: #c49d66;
+    color:black;
+}
+ 
+
+.btn:hover{
+    background-color: #D7C0AE;
+    border-color: #D7C0AE;
+    color:white;
+}
+
+.order-catalog-btn {
+    margin: 5% 3% 2% 0;
+}
+
+/* Images styles */
+
+.img-fluid {
+    max-width: 60%;
+    margin-left: 20%;
+    /* transform: rotate(25deg); */
+}
+
+/* Navigation bar styles */
+
+.navbar {
+    padding-bottom: 3rem;
+}
+
+.nav-link {
+    color:white;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-brand {
+    font-size: 3.25rem;
+    font-weight: bolder;
+    font-family: "Dancing Script";
+}
+
