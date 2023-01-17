@@ -8,7 +8,8 @@ body {
 
 .maintitle {
     font-family: 'Montserrat';
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: 3vw;
     line-height: 1.5;
     font-weight: 900;
     color:#F8EDE3
@@ -25,7 +26,6 @@ body {
 
 .p-secondsection{
     color: #8f8f8f;
-
 }
 
 .container-fluid {
