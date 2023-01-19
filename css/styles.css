@@ -1,100 +1,134 @@
 body {
-    font-family: "Montserrat";
-}
-
-#title {
-    background-color: #967E76;
-}
-
-.maintitle {
-    font-family: 'Montserrat';
-    font-size: 3rem;
-    /* font-size: 4vw; */
-    line-height: 1.5;
-    font-weight: 900;
-    color:#F8EDE3
-    
-}
-
-.secondsection {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    line-height: 1.5;
-    font-size: 1.5rem;
-    color: #796760;
-}
-
-.p-secondsection{
-    color: #8f8f8f;
-}
-
-.container-fluid {
-    padding: 7% 10%;
-}
-
-.container-fluid-features {
-    padding: 5% 10%;
-}
-
-
-.btn {
-    background-color: #c49d66;
-    border-color: #c49d66;
-    color:black;
-}
- 
-
-.btn:hover{
-    background-color: #D7C0AE;
-    border-color: #D7C0AE;
-    color:white;
-}
-
-.order-catalog-btn {
-    margin: 5% 3% 2% 0;
-}
-
-/* Images styles */
-
-.img-fluid {
-    max-width: 60%;
-    margin-left: 20%;
-    /* transform: rotate(25deg); */
-}
-
-.featuresicons:hover{
-    color: #6f574f;
-}
-
-.fa-hand-holding-heart {
-    color: #967E76;
-}
-
-.fa-rectangle-list{
-    color: #967E76;
-}
-
-.fa-truck-fast{
-    color: #967E76;   
+  font-family: "Montserrat";
 }
 
 /* Navigation bar styles */
 
 .navbar {
-    padding-bottom: 3rem;
+  padding-bottom: 3rem;
 }
 
 .nav-link {
-    color:white;
+  color: #f8ede3;
 }
 
 .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+  color: white;
 }
 
 .navbar-brand {
-    font-size: 3.25rem;
-    font-weight: bolder;
-    font-family: "Dancing Script";
+  font-size: 3.25rem;
+  font-weight: bolder;
+  font-family: "Dancing Script";
 }
 
+/* Title Section */
+
+#title {
+  background-color: #967e76;
+}
+
+.maintitle {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #f8ede3;
+}
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+.btn {
+  background-color: #c49d66;
+  border-color: #c49d66;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #d7c0ae;
+  border-color: #d7c0ae;
+  color: white;
+}
+
+.order-catalog-btn {
+  margin: 5% 3% 2% 0;
+}
+
+/* Features Section */
+
+#features {
+  padding: 5% 10%;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.secondsection {
+  font-weight: 900;
+  font-family: "Montserrat";
+  color: #796760;
+}
+
+.p-secondsection {
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.featuresicons {
+  margin-bottom: 1rem;
+}
+
+.featuresicons:hover {
+  color: #6f574f;
+}
+
+.fa-hand-holding-heart {
+  color: #967e76;
+}
+
+.fa-rectangle-list {
+  color: #967e76;
+}
+
+.fa-truck-fast {
+  color: #967e76;
+}
+
+/* MasVendidos */
+
+#masvendidos {
+  text-align: center;
+  background-color: #967e76;
+  color: #f8ede3;
+}
+
+#MasVendidos_Heading {
+  padding-top: 5%;
+}
+
+.carousel-item {
+  padding: 5% 10%;
+}
+
+.img-masvendidos {
+  width: 20%;
+  border-radius: 100%;
+}
+
+h4 {
+  display: inline;
+  padding-left: 5%;
+}
+
+/* Images styles */
+
+.img-fluid {
+  max-width: 60%;
+  margin-left: 20%;
+  /* transform: rotate(25deg); */
+}
