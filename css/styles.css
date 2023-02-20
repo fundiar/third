@@ -41,14 +41,15 @@ body {
 }
 
 .btn {
-  background-color: #c49d66;
-  border-color: #c49d66;
+  background-color: #d3b197;
+  border-color: #d3b197;
+
   color: black;
 }
 
 .btn:hover {
-  background-color: #d7c0ae;
-  border-color: #d7c0ae;
+  background-color: #c49d66;
+  border-color: #c49d66;
   color: white;
 }
 
@@ -131,4 +132,20 @@ h4 {
   max-width: 60%;
   margin-left: 20%;
   /* transform: rotate(25deg); */
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.h2 {
+  font-family: "Montserrat";
+  font-weight: 100;
 }
