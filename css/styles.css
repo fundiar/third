@@ -37,13 +37,12 @@ body {
 }
 
 .container-fluid {
-  padding: 7% 10%;
+  padding: 3% 10%;
 }
 
 .btn {
   background-color: #d3b197;
   border-color: #d3b197;
-
   color: black;
 }
 
@@ -57,10 +56,19 @@ body {
   margin: 5% 3% 2% 0;
 }
 
+.img-fluid {
+  max-width: 30%;
+  margin-left: 2%;
+  transform: rotate(25deg);
+  position: absolute;
+}
 /* Features Section */
 
 #features {
-  padding: 5% 10%;
+  padding: 2% 10%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-box {
@@ -127,12 +135,6 @@ h4 {
 }
 
 /* Images styles */
-
-.img-fluid {
-  max-width: 60%;
-  margin-left: 20%;
-  /* transform: rotate(25deg); */
-}
 
 /* Pricing Section */
 
