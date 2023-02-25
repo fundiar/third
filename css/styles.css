@@ -30,7 +30,7 @@ body {
 
 .maintitle {
   font-family: "Montserrat";
-  font-size: 3rem;
+  font-size: 3vw;
   line-height: 1.5;
   font-weight: 900;
   color: #f8ede3;
@@ -54,7 +54,7 @@ body {
 
 .img-fluid {
   max-width: 25%;
-  margin-left: 10%;
+  /*margin-left: 10%;*/
   transform: rotate(20deg);
   position: absolute;
 }
