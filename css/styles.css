@@ -52,16 +52,17 @@ body {
   color: white;
 }
 
+.img-fluid {
+  max-width: 25%;
+  margin-left: 10%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
 .order-catalog-btn {
   margin: 5% 3% 2% 0;
 }
 
-.img-fluid {
-  max-width: 30%;
-  margin-left: 2%;
-  transform: rotate(25deg);
-  position: absolute;
-}
 /* Features Section */
 
 #features {
@@ -150,4 +151,19 @@ h4 {
 .h2 {
   font-family: "Montserrat";
   font-weight: 100;
+}
+
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  /*  .col-lg-6 {
+    width: 100%;
+  }*/
+
+  .img-fluid {
+    position: static;
+    transform: rotate(0);
+  }
 }
