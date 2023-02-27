@@ -156,6 +156,31 @@ h4 {
   font-weight: 100;
 }
 
+#cta {
+  padding: 7% 15%;
+  color: #fff;
+  background-color: #967e76;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.footer_title {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  padding: 2%;
+}
+
+.myinstagram {
+  color: #967e76;
+}
+
 @media (max-width: 991px) {
   #title {
     text-align: center;
